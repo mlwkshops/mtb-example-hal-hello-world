@@ -1,0 +1,20 @@
+{
+  "name": "ModusToolBox",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "VARIANT": "stable"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+  //"remoteUser": "builder:builder",
+  "forwardPorts": [
+    3000
+  ]
+}
