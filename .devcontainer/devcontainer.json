@@ -4,10 +4,11 @@
     "dockerfile": "Dockerfile",
     "context": "..",
     "args": {
-      "VARIANT": "stable"
+      "VARIANT": "stable",
+      "TARGET": "CY8CPROTO-062-4343W"
     }
   },
-  "workspaceFolder": "/mtb-workspace",
+  "workspaceFolder": "/home/builder/mtb-workspace",
   "customizations": {
     "vscode": {
       "extensions": []
