@@ -11,7 +11,10 @@
   "workspaceFolder": "/home/builder/mtb-workspace",
   "customizations": {
     "vscode": {
-      "extensions": []
+      "extensions": [
+        "arm.device-manager",
+        "arm.embedded-debug"
+      ]
     }
   },
   "forwardPorts": [
